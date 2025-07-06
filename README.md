@@ -12,7 +12,7 @@ A comprehensive Python implementation of the Felligi-Sunter probabilistic record
 ## Overview
 
 The Felligi-Sunter model is a probabilistic approach to record linkage that calculates match probabilities between record pairs based on agreement patterns across multiple fields. This implementation provides specialized comparison functions for common personal identification data types and uses an Expectation-Maximization (EM) algorithm for parameter estimation.
-
+This is a Naive implementaion of Felligi-Sunter model aimed to establish algorithmic details of the model. 
 ## Features
 
 ### Specialized Comparison Functions
