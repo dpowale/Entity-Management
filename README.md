@@ -7,7 +7,7 @@ One of the most well-established probabilistic models is the Fellegi-Sunter mode
 
  # Felligi-Sunter Model for Person Entity Record Linkage
 
-A comprehensive Python implementation of the Felligi-Sunter probabilistic record linkage model, specifically optimized for personal identification records containing name, date of birth, phone number, address, and government ID information.
+A comprehensive Python implementation of the Felligi-Sunter probabilistic record linkage model, specifically optimized for person entity identification records containing name, date of birth, phone number, address, and government ID information.
 
 ## Overview
 
