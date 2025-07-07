@@ -1,0 +1,43 @@
+Model output:
+
+Starting EM algorithm with 4 x 5 comparisons...
+Generating comparison vectors for 20 pairs...
+Found 4 unique comparison patterns
+Converged after 3 iterations
+Parameter estimation completed
+
+Model Summary:
+m_probabilities: {'name': {0: 0.01, 1: 0.33333682909333423, 2: 0.6666631709000729}, 'dob': {0: 0.01, 1: 0.01, 2: 0.99}, 'phone': {0: 0.01, 1: 0.01, 2: 0.99}, 'address': {0: 0.01, 1: 0.01, 2: 0.99}, 'government_id': {0: 0.01, 1: 0.01, 2: 0.99}}
+u_probabilities: {'name': {0: 0.9411773264065262, 1: 0.058822662895193854, 2: 0.01}, 'dob': {0: 0.9411773264065262, 1: 0.05882259996619586, 2: 0.01}, 'phone': {0: 0.99, 1: 0.01, 2: 0.01}, 'address': {0: 0.9411773264065262, 1: 0.01, 2: 0.058822673593473915}, 'government_id': {0: 0.99, 1: 0.01, 2: 0.01}}
+prior_match_probability: 0.01
+
+Testing individual comparison functions:
+Name comparison: 1
+DOB comparison: 2
+Phone comparison: 2
+Address comparison: 2
+Government ID comparison: 2
+
+Classifying pairs...
+
+Classification Results:
+John Michael Smith <-> Jon M. Smith: Match (prob: 1.000, score: 26.464)
+John Michael Smith <-> Jane E. Doe: Non-Match (prob: 0.000, score: -32.928)
+John Michael Smith <-> Bob Johnson: Non-Match (prob: 0.000, score: -32.928)
+John Michael Smith <-> Alice Brown: Non-Match (prob: 0.000, score: -32.928)
+John Michael Smith <-> Michael Wilson: Non-Match (prob: 0.000, score: -32.928)
+Jane Elizabeth Doe <-> Jon M. Smith: Non-Match (prob: 0.000, score: -32.928)
+Jane Elizabeth Doe <-> Jane E. Doe: Match (prob: 1.000, score: 30.020)
+Jane Elizabeth Doe <-> Bob Johnson: Non-Match (prob: 0.000, score: -32.928)
+Jane Elizabeth Doe <-> Alice Brown: Non-Match (prob: 0.000, score: -32.928)
+Jane Elizabeth Doe <-> Michael Wilson: Non-Match (prob: 0.000, score: -32.928)
+Robert James Johnson <-> Jon M. Smith: Non-Match (prob: 0.000, score: -32.928)
+Robert James Johnson <-> Jane E. Doe: Non-Match (prob: 0.000, score: -32.928)
+Robert James Johnson <-> Bob Johnson: Non-Match (prob: 0.002, score: -9.240)
+Robert James Johnson <-> Alice Brown: Non-Match (prob: 0.000, score: -32.928)
+Robert James Johnson <-> Michael Wilson: Non-Match (prob: 0.000, score: -32.928)
+Alice Marie Brown <-> Jon M. Smith: Non-Match (prob: 0.000, score: -32.928)
+Alice Marie Brown <-> Jane E. Doe: Non-Match (prob: 0.000, score: -32.928)
+Alice Marie Brown <-> Bob Johnson: Non-Match (prob: 0.000, score: -32.928)
+Alice Marie Brown <-> Alice Brown: Match (prob: 1.000, score: 30.020)
+Alice Marie Brown <-> Michael Wilson: Non-Match (prob: 0.000, score: -32.928)
